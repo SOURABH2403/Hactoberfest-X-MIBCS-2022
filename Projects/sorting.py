@@ -11,7 +11,7 @@ def bubble():
 				arr[j]=arr[j+1]
 				arr[j+1]=temp
 	print(arr)
-bubble()
+#bubble()
 def selection():
 	n=int(input("enter the number of element: "))
 	arr=[]
@@ -25,3 +25,10 @@ def selection():
 				arr[j]=arr[j+1]
 				arr[j+1]=temp
 	print(arr)
+a=int(input("enter type of sorting\n  enter 1 for bubble\n  and enter 2 for selection:"))
+if a==1:
+	bubble()
+elif a==2:
+	selection()
+else:
+	print("enter correct choice")
